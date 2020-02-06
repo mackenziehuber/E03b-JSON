@@ -789,9 +789,13 @@
 			"exit": "EAST",
 			"target": "CRAW1"
 		}],
-		"items": [{
+		"items": [
+		{
 			"item": "MUMMY"
-			"desc": "An ancient Egyptian mummy is sprawled on the floor."]
+			"desc": "An ancient Egyptian mummy is sprawled on the floor."
+			"take": "You stuff the mummy in to your sack."
+		}
+	]
 	},
 	"ICY": {
 		"name": "Glacier Room",
@@ -1250,10 +1254,12 @@
 			"exit": "SOUTH",
 			"target": "MINE6"
 		}],
-		"items": [{
+		"items": [
+		{
 			"item": "SIGN"
 			"desc": "A sign is here that points down."
-		}]
+		}
+	]
 	},
 	"DOME": {
 		"name": "Dome Room",
